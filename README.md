@@ -1,5 +1,6 @@
-Windows Web Development Install with Vagrant
+WebDev Environment with Vagrant
 ==================
+
 
 Step 1: Download and install the tools
 -------
@@ -10,7 +11,12 @@ Step 1: Download and install the tools
 * [Putty SSH Client](http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe) - **Windows OS only**.  Just download this file to your desktop so you can run it easy.
 
 
-Step 2: Add the Box
+Step 2:  Download the dev environment
+-----------
+
+Download and unzip the following file: [firehose-vagrant](https://github.com/kenmazaika/firehose-vagrant/archive/master.zip).  This is where all your web development environment will live.
+
+Step 3: Add the Box
 --------
 
 Download the Firehose Vagrant image, open up the Windows Command line in the directory you have the firehose.box downloaded and run the following commands.
@@ -20,7 +26,7 @@ vagrant box add firehose firehose.box
 vagrant up
 ```
 
-Step 3: Log in
+Step 4: Log into your virtual environment
 -----------
 
 Navigate to the directory where the vagrant folder lives and then run this:
@@ -31,10 +37,10 @@ cd /vagrant/src/firehose-test-app
 rails s
 ```
 
-Step 4: Accounts
+Step 5: Accounts
 ------------
 
-# Generate SSH Key
+#### Generate SSH Key
 
 ```
 eval `ssh-agent -s`
@@ -42,8 +48,8 @@ ssh-keygen -t rsa -C "Firehose Vagrant" -N '' -f ~/.ssh/id_rsa
 ssh-add ~/.ssh/id_rsa
 ```
 
-* Go to github.com and create an account
-* Go to heroku.com and create an account
+* Go to [github.com](http://github.com) and create an account
+* Go to [heroku.com](http://heroku.com) and create and verify your account
 
 #### Configure Heroku with SSH Keys
 
@@ -59,7 +65,7 @@ curl "https://raw2.github.com/kenmazaika/firehose-vagrant/master/github-key.rb" 
 ```
 
 
-Step 5: Test
+Step 6: Test
 ---------
 
 Open a web browser on your windows machine and go to: [http://127.0.0.1:3030](http://127.0.0.1:3030)
