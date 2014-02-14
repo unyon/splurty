@@ -3,10 +3,11 @@ Windows Web Development Install with Vagrant
 
 Step 1: Download and install the tools
 -------
-[VirtualBox](https://www.virtualbox.org/wiki/Downloads)
-[Vagrant](http://www.vagrantup.com/downloads.html)
-[Sublime Text Editor](http://sublimetext.com/)
-[Putty SSH Client](http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe) - **Windows OS only**.  Just download this file to your desktop so you can run it easy.
+
+* [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+* [Vagrant](http://www.vagrantup.com/downloads.html)
+* [Sublime Text Editor](http://sublimetext.com/)
+* [Putty SSH Client](http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe) - **Windows OS only**.  Just download this file to your desktop so you can run it easy.
 
 
 Step 2: Add the Box
@@ -56,7 +57,7 @@ heroku keys:add
 #### Configure Github with SSH Keys
 
 ```
-curl "https://raw2.github.com/kenmazaika/firehose-boxen/master/github-key.rb" > ~/.firehose-github.rb && ruby ~/.firehose-github.rb
+curl "https://raw2.github.com/kenmazaika/firehose-vagrant/master/github-key.rb" > ~/.firehose-github.rb && ruby ~/.firehose-github.rb
 ```
 
 
