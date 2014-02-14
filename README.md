@@ -37,8 +37,8 @@ Step 4: Accounts
 # Generate SSH Key
 
 ```
-ssh-keygen -t rsa -C "Firehose Vagrant" -N '' -f ~/.ssh/id_rsa
 eval `ssh-agent -s`
+ssh-keygen -t rsa -C "Firehose Vagrant" -N '' -f ~/.ssh/id_rsa
 ssh-add ~/.ssh/id_rsa
 ```
 
@@ -48,8 +48,6 @@ ssh-add ~/.ssh/id_rsa
 #### Configure Heroku with SSH Keys
 
 ```
-gem install heroku
-rbenv rehash
 heroku login
 heroku keys:add
 ```
