@@ -45,15 +45,13 @@ Open up putty
 * You will be prompted for a user.  Enter: __vagrant__
 * You will be prompted for a password.  Enter: __vagrant__
  
-```
-cd /vagrant/src/firehose-test-app
-rails s
-```
  
 Step 5: Accounts
 ------------
- 
+
 #### Generate SSH Key
+
+ In putty run:
  
 ```
 eval `ssh-agent -s`
@@ -81,4 +79,11 @@ curl "https://raw2.github.com/kenmazaika/firehose-vagrant/master/github-key.rb" 
 Step 6: Test
 ---------
  
+ In Putty run:
+
+ ```
+cd /vagrant/src/firehose-test-app
+rails s
+```
+
 Open a web browser on your windows machine and go to: [http://127.0.0.1:3030](http://127.0.0.1:3030)
