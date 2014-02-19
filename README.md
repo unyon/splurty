@@ -37,10 +37,16 @@ open up the Windows Command line in the directory you have the firehose.box down
  
 ```
 vagrant box add firehose firehose.box
+```
+
+Step 5: Turn on your Web Dev Environment
+-------
+
+```
 vagrant up
 ```
  
-Step 5: Log into your virtual environment
+Step 6: Log into your virtual environment
 -----------
  
 Navigate to the directory where the vagrant folder lives and then run this:
@@ -60,7 +66,7 @@ Open up putty
 * You will be prompted for a password.  Enter: __vagrant__
  
  
-Step 6: Accounts
+Step 7: Accounts
 ------------
 
 #### Generate SSH Key
@@ -98,7 +104,7 @@ git config --global user.name "Your Name"
 
  
  
-Step 7: Test
+Step 8: Test
 ---------
  
  In Putty run:
