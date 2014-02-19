@@ -1,4 +1,4 @@
-Setting Up Your WebDev Environment with Boxen
+Setting Up A WebDev Environment with Vagrant
 ==================
 
 First a little about passwords: Read all of this
