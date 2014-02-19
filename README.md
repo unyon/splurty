@@ -1,4 +1,4 @@
-Setting Up A WebDev Environment with Vagrant
+WebDev Setup with Vagrant
 ==================
 
 First a little about passwords: Read all of this
