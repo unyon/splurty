@@ -1,4 +1,4 @@
-WebDev Setup with Vagrant
+Windows Setup with Vagrant
 ==================
 
 This will run you through the steps to configure your web development environment using the vagrant install process.
@@ -27,7 +27,7 @@ Step 3:  Get the dev environment
 
 **If you do not have a Firehose Flash Drive**: download and unzip the following file: [firehose-vagrant](https://github.com/kenmazaika/firehose-vagrant/archive/master.zip) to your __Desktop__ and rename the folder `vagrant`.  This is where all your web development environment will live.
 
-Download the firehose.box file, and save it in your `Desktop/vagrant` folder.
+Download the firehose.box file, and save it in your `Desktop\vagrant` folder.
  
 Step 4: Add the Box
 --------
