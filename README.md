@@ -10,8 +10,8 @@ Sometimes your machine will prompt you for a password for the user account on yo
 Run Through the Guide For Your Machine
 -------------
 
-## [windows](windows.md)
-## [mac](mac.md)
+## [Windows Web Dev Setup](windows.md)
+## [Mac Web Dev Setup](mac.md)
 
 
 Additional Info
