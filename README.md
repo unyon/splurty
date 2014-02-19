@@ -1,6 +1,17 @@
 WebDev Environment with Vagrant
 ==================
- 
+ TODO: when putty, when not
+ TODO: email I was sent
+ TODO: open 2 tabs
+TODO:  specify Desktop/vagrant.  Make sure to cd in commandprompt
+ TWO KEY DIFFERENCES:
+TODO when entering your insecure key you need to put * in the textbox and hit enter to actually view the file
+BACKTICKS
+
+
+ When we say:
+ instead of ~/
+ use /vagrant
  
 Step 1: Download and install the tools
 -------
