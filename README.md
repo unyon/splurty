@@ -24,7 +24,7 @@ Step 2: Download and install the tools
 Step 3:  Download the dev environment
 -----------
  
-Download and unzip the following file: [firehose-vagrant](https://github.com/kenmazaika/firehose-vagrant/archive/master.zip).  This is where all your web development environment will live.
+Download and unzip the following file: [firehose-vagrant](https://github.com/kenmazaika/firehose-vagrant/archive/master.zip) to your __Desktop__ and rename the folder `vagrant`.  This is where all your web development environment will live.
  
 Step 4: Add the Box
 --------
