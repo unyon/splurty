@@ -21,15 +21,19 @@ Step 2: Download and install the tools
 * [Vagrant](http://www.vagrantup.com/downloads.html) - After this installs you may need
  
  
-Step 3:  Download the dev environment
+Step 3:  Get the dev environment
 -----------
- 
-Download and unzip the following file: [firehose-vagrant](https://github.com/kenmazaika/firehose-vagrant/archive/master.zip) to your __Desktop__ and rename the folder `vagrant`.  This is where all your web development environment will live.
+
+**If you have a Firehose Flash Drive**:  copy the vagrant folder onto your __Desktop__.
+
+**If you do not have a Firehose Flash Drive**: download and unzip the following file: [firehose-vagrant](https://github.com/kenmazaika/firehose-vagrant/archive/master.zip) to your __Desktop__ and rename the folder `vagrant`.  This is where all your web development environment will live.
+
+Download the firehose.box file, and save it in your `Desktop/vagrant` folder.
  
 Step 4: Add the Box
 --------
  
-Download the Firehose Vagrant image, open up the Windows Command line in the directory you have the firehose.box downloaded and run the following commands.
+open up the Windows Command line in the directory you have the firehose.box downloaded and run the following commands.
  
 ```
 vagrant box add firehose firehose.box
