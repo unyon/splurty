@@ -59,7 +59,7 @@ In the command prompt window you've been using, type this command, again this ma
 vagrant up
 ```
 
-Now click the X button and close the Command Line window.
+Now close the Command Line window (you can click the red X in the top corner).
  
 Step 6: Log into your dev environment
 -----------
@@ -130,7 +130,7 @@ rails s
 
 Open a web browser on your windows machine and go to: [http://127.0.0.1:3030](http://127.0.0.1:3030)
 
-If you want to return to a window where you can enter commands in this Putty window, go into it and hold CTRL+C.  This will stop your webpage from working, but allow you to enter new commands.
+If you want to return to a window where you can enter commands in this Putty window, go into the putty window and hold CTRL+C.  This will stop your webpage from working, but allow you to enter new commands.
 
 
 Additional Info
