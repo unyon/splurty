@@ -14,11 +14,13 @@ First go to [GitHub.com](http://github.com) and [Heroku.com](http://Heroku.com) 
 
 Step 2: Download and install the tools
 -------
- 
+
+I suggest following these installers in this order, because the last installer will have you retart your machine.  When it prompts you to, click "Yes"
+
 * [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 * [Sublime Text Editor](http://sublimetext.com/)
-* [Putty SSH Client](http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe) - **Windows OS only**.  Just download this file to your desktop so you can run it easy.
-* [Vagrant](http://www.vagrantup.com/downloads.html) - After this installs you may need to restart your machine.  If it prompts you to restart, click "Yes"
+* [Putty SSH Client](http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe) - Just download this file to your desktop so you can run it easily.
+* [Vagrant](http://www.vagrantup.com/downloads.html) 
  
  
 Step 3:  Get the dev environment
