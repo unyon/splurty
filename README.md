@@ -4,7 +4,7 @@ Setting Up A WebDev Environment with Vagrant
 First a little about passwords: Read all of this
 ------------------
 
-Sometimes your machine will prompt you for a password for the user account on your Mac in the terminal window.  When you start typing the password, it will look like it isn't being typed (nothing will display on the screen as you press keys).  What happens here is the terminal doesn't display the characters you type, but it is keeping track of it, so just enter your password (assume you type it correctly) and press enter.  If you type the wrong one it will prompt you for it again.  This prevents someone from looking over your shoulder and seeing the password that you type or knowing how many characters your password is.  
+Sometimes your machine will prompt you for a password for the user account on your in the terminal window.  When you start typing the password, it will look like it isn't being typed (nothing will display on the screen as you press keys).  What happens here is the terminal doesn't display the characters you type, but it is keeping track of it, so just enter your password (assume you type it correctly) and press enter.  If you type the wrong one it will prompt you for it again.  This prevents someone from looking over your shoulder and seeing the password that you type or knowing how many characters your password is.  
 
 Step 1 - Create accounts if you haven't already
 --------
