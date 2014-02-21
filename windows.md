@@ -42,31 +42,6 @@ I suggest following these installers in this order, because the last installer w
 * [Vagrant](http://www.vagrantup.com/downloads.html) 
 
 
-====OLD ====
-
-Step 2: Download and install the tools
--------
-
-I suggest following these installers in this order, because the last installer will have you retart your machine.  When it prompts you to, click "Yes"
-
-* [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
-* [Sublime Text Editor](http://sublimetext.com/)
-* [Putty SSH Client](http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe) - Just download this file to your desktop so you can run it easily.
-* [Vagrant](http://www.vagrantup.com/downloads.html) 
- 
- 
-Step 3:  Get the dev environment
------------
-
-**If you have a Firehose Flash Drive**:  copy the vagrant folder onto your __Desktop__.
-
-**If you do not have a Firehose Flash Drive**: download and unzip the following file: [firehose-vagrant](https://github.com/kenmazaika/firehose-vagrant/archive/master.zip) to your __Desktop__ and rename the folder `vagrant`.  This is where all your web development environment will live.
-
-Download the firehose.box file, and save it in your `Desktop\vagrant` folder.
- 
- 
- ==== old end ====
- 
 Step 4: Add the Box
 --------
  
