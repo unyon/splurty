@@ -27,6 +27,7 @@ Go to your vagrant folder on your desktop and open it up. Inside the vagrant fol
 * Double click on Sublime Text 2.0.2 Setup.exe and follow the instructions (you're clicking next most of the time)
 * Copy the putty.exe file onto your desktop (that way you can start things up quickly) 
 * Double click on Vagrant_1.4.3.msi and follow the instructions (you're clicking next most of the time)
+* Restart your computer
 
 **--> Move on to Step 4.**
 
