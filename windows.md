@@ -9,6 +9,40 @@ Step 1 - Create accounts if you haven't already
 First go to [GitHub.com](http://github.com) and [Heroku.com](http://Heroku.com) and create an account there
 
 
+Step 2:  Get the files for your development environment
+-----------
+
+**Go get a Firehose Flash Drive**:  copy the vagrant folder onto your __Desktop__.  --> Move on to step 3!
+
+**If you do not have a Firehose Flash Drive (this will be a long donwload)**: download and unzip the following file: [firehose-vagrant](https://github.com/kenmazaika/firehose-vagrant/archive/master.zip) to your __Desktop__ and rename the folder `vagrant`.  This is where all your web development environment will live. Also download the firehose.box file here, and save it in your `Desktop/vagrant` folder.
+
+
+Step 3: Install the tools
+-------
+
+**If you used a firehose flash-drive:**
+Go to your vagrant folder on your desktop and open it up. Inside the vagrant folder open up the programs folder and inside of it the windows folder (vagrant > programs > windows).
+
+* Double click on VirtualBox-4.3.6-91406-Win.exe and follow the instructions (you're clicking next most of the time)
+* Double click on Sublime Text 2.0.2 Setup.exe and follow the instructions (you're clicking next most of the time)
+* Copy the putty.exe file onto your desktop (that way you can start things up quickly) 
+* Double click on Vagrant_1.4.3.msi and follow the instructions (you're clicking next most of the time)
+
+**--> Move on to Step 4.**
+
+
+**If you didn't use a firehose flash-drive - download the tools below:**
+
+I suggest following these installers in this order, because the last installer will have you retart your machine.  When it prompts you to, click "Yes".
+
+* [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+* [Sublime Text Editor](http://sublimetext.com/)
+* [Putty SSH Client](http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe) - Just download this file to your desktop so you can run it easily.
+* [Vagrant](http://www.vagrantup.com/downloads.html) 
+
+
+====OLD ====
+
 Step 2: Download and install the tools
 -------
 
@@ -28,6 +62,9 @@ Step 3:  Get the dev environment
 **If you do not have a Firehose Flash Drive**: download and unzip the following file: [firehose-vagrant](https://github.com/kenmazaika/firehose-vagrant/archive/master.zip) to your __Desktop__ and rename the folder `vagrant`.  This is where all your web development environment will live.
 
 Download the firehose.box file, and save it in your `Desktop\vagrant` folder.
+ 
+ 
+ ==== old end ====
  
 Step 4: Add the Box
 --------
@@ -61,12 +98,12 @@ Now close the Command Line window (you can click the red X in the top corner).
 Step 6: Log into your dev environment
 -----------
  
-Launch the **Putty** application that was place onto your Desktop.
+Launch the **Putty** application that was placed onto your Desktop by double clicking it.
 
 Open up putty
  
 * In the **Host Name** (or IP Address) enter: 127.0.0.1
-* In the **Port** to the right of it enter: 2222
+* In the **Port** to the right of the host name enter: 2222
 * Press the **Open** button.
 * You will be prompted for a user.  Enter: __vagrant__
 * You will be prompted for a password.  Enter: __vagrant__
@@ -81,7 +118,11 @@ Step 7: Accounts
  
 ```
 eval `ssh-agent -s`
+```
+```
 ssh-keygen -t rsa -C "Firehose Vagrant" -N '' -f ~/.ssh/id_rsa
+```
+```
 ssh-add ~/.ssh/id_rsa
 ```
  
@@ -91,6 +132,8 @@ This will prompt you for your heroku username and password.  Enter that here.
 
 ```
 heroku login
+```
+```
 heroku keys:add
 ```
  
@@ -104,6 +147,8 @@ Then adjust these to have your name and email address inside the double quotes:
 
 ```
 git config --global user.email "you@example.com"
+```
+```
 git config --global user.name "Your Name"
 ```
 
@@ -119,8 +164,10 @@ Step 8: Test
  
  In the putty window run this, _important note: after you run `rails s` it won't give you the prompt to continue to enter commands. This is by design, so move onto the next step even if it looks like it's just hanging_:
 
- ```
+```
 cd /vagrant/src/firehose-test-app
+```
+```
 rails s
 ```
 
