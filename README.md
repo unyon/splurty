@@ -42,7 +42,7 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: YOUR_APPLICATION_NAME_HERE_development
+  database: YOUR_APPLICATION_NAME_HERE_test
   pool: 5
   username: postgres
   password: password
@@ -52,7 +52,7 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: YOUR_APPLICATION_NAME_HERE_development
+  database: YOUR_APPLICATION_NAME_HERE_production
   pool: 5
   username: postgres
   password: password
