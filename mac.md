@@ -26,7 +26,7 @@ Go to your vagrant folder on your desktop and open it up. Inside the vagrant fol
 * Double click on Sublime Text 2.0.2.dmg and follow the instructions (you're clicking continue most of the time)
 * Double click on Vagrant.pkg and follow the instructions (you're clicking continue most of the time)
 
-** --> Move on to Step 4.**
+**--> Move on to Step 4.**
 
 
 **If you didn't use a firehose flash-drive - download the tools below:**
