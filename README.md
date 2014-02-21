@@ -19,12 +19,37 @@ Additional Info
 
 #### database.yml
 
-We'll go over what this means Saturday.
 
-This installer will install postgresql in such a way that you'll need to adjust your database.yml file to look like this in each of the three sections (development, test, production).  Also be sure to adjust the database section.  _NOTE: indentation is super important - make sure they line up and rather than copy & pasting this, type this in)_:
+This installer will install postgresql in such a way that you'll need to adjust your database.yml. Add your username as 'postgres', your password as 'password' (don't include the single quotes!). You will also need to add an additional line typing 'host: localhost' (again, don't include the single quotes!).
+
+When you're done you should have three different sections in you database.yml file that look similar to the examples below. What's important is that your name after 'database:' is different then in our example below.
+
+We'll go over all the details of the database.yml file on Saturday.
+
+_NOTE: indentation is super important - make sure they line up and rather than copy & pasting this, type this in)_:
 
 ```
 development:
+  adapter: postgresql
+  encoding: unicode
+  database: YOUR_APPLICATION_NAME_HERE_development
+  pool: 5
+  username: postgres
+  password: password
+  host: localhost
+  
+  
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: YOUR_APPLICATION_NAME_HERE_development
+  pool: 5
+  username: postgres
+  password: password
+  host: localhost
+  
+  
+production:
   adapter: postgresql
   encoding: unicode
   database: YOUR_APPLICATION_NAME_HERE_development
