@@ -97,6 +97,8 @@ Step 7: Accounts
 
  Inside the putty window run, _important note: the command has backticks (`) not single-quotes ('), either copy and paste the command or if you type it use the key to the left of the 1 to type the backtick in the first line_:
  
+ **Copy and Pasting**: If you want to paste something into the Putty, CTRL+C to put something on your clipboard, then move your mouse/cursor over the putty window and right-click.
+
 ```
 eval `ssh-agent -s`
 ```
