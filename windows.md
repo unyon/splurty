@@ -160,7 +160,7 @@ If you want to return to a window where you can enter commands in this Putty win
 Step 9: Verify Your Setup
 -----------------
 
-If you're at the FirehoseWeekend workshop, call over Marco or Ken to verify your machine is properly configured and you'll be ready to hack with us first thing Saturday morning.
+If you're at the FirehoseWeekend workshop, call over Marco or Ken to verify your machine is properly configured and you'll be ready to hack with us first thing Saturday morning :)
 
 Additional Info
 ---------------
