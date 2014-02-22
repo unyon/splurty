@@ -23,8 +23,8 @@ Step 3: Install the tools
 **If you used a firehose flash-drive:**
 Go to your vagrant folder on your desktop and open it up. Inside the vagrant folder open up the programs folder and inside of it the windows folder (vagrant > programs > windows).
 
-* Double click on VirtualBox-4.3.6-91406-Win.exe and follow the instructions (you're clicking next most of the time)
-* Double click on Sublime Text 2.0.2 Setup.exe and follow the instructions (you're clicking next most of the time)
+* Right click on VirtualBox-4.3.6-91406-Win.exe, click "Run as Administrator" and follow the instructions (you're clicking next most of the time)
+* Right click on Sublime Text 2.0.2 Setup.exe, click "Run as Administrator" and follow the instructions (you're clicking next most of the time)
 * Copy the putty.exe file onto your desktop (that way you can start things up quickly) 
 * Double click on Vagrant_1.4.3.msi and follow the instructions (you're clicking next most of the time)
 * Restart your computer
