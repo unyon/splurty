@@ -6,8 +6,13 @@ This will run you through the steps to configure your web development environmen
 Step 1 - Create accounts if you haven't already
 --------
 
-First go to [GitHub.com](http://github.com) and [Heroku.com](http://Heroku.com) and create an account there
+### Part A
 
+First go to [GitHub.com](http://github.com) and create an account. 
+
+### Part B
+
+Then go to [Heroku.com](http://Heroku.com) and create an account there as well.
 
 Step 2:  Get the files for your development environment
 -----------
@@ -152,6 +157,10 @@ Open a web browser on your windows machine and go to: [http://127.0.0.1:3030](ht
 
 If you want to return to a window where you can enter commands in this Putty window, go into the putty window and hold CTRL+C.  This will stop your webpage from working, but allow you to enter new commands.
 
+Step 9: Verify Your Setup
+-----------------
+
+If you're at the FirehoseWeekend workshop, call over Marco or Ken to verify your machine is properly configured and you'll be ready to hack with us first thing Saturday morning.
 
 Additional Info
 ---------------
