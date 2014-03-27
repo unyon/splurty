@@ -3,7 +3,7 @@ Mac Setup with Vagrant
 
 This will run you through the steps to configure your web development environment using the vagrant install process.
 
-Step 1 - Create accounts if you haven't already
+Step 1: Create accounts if you haven't already
 --------
 
 ### Part A
@@ -76,13 +76,24 @@ vagrant up
  
 Step 6: Log into your dev environment
 -----------
- 
-Then in your terminal type this command.  This will convert your terminal window locally, into a terminal window in your web dev environment and the title of the tab that you're in should change to say "ssh".  That means the terminal window is inside your web development environment.
 
-```
-vagrant ssh
-``` 
- 
+To log into your web-dev environment follow the following steps:
+
+1.  Double click the vagrant folder on your desktop:
+
+![vagrant-folder](http://i.imgur.com/dVMQWUX.png)
+
+2. When the finder window opens double click the `Launch Mac Web Dev
+   Environment`.
+
+![vagrant-folder](http://i.imgur.com/5s5S7L1.png)
+
+3. Then you'll be prompted with a terminal window inside your web
+development environment that looks like this:
+
+![web-dev-environment](http://i.imgur.com/zQC0NKz.png)
+
+This brings you into your web dev environment ready to run commands.
 
 
 Step 7: Accounts
@@ -90,7 +101,7 @@ Step 7: Accounts
 
 #### Generate SSH Key
 
- Inside the web development terminal window, where it says SSH, run the following lines one by one. _important note: the command has backticks (`) not single-quotes ('), either copy and paste the command or if you type it use the key to the left of the 1 to type the backtick in the first line_:
+ Inside the web development terminal window, where it says `[Web Dev]` in blue, run the following lines one by one. _important note: the command has backticks (`) not single-quotes ('), either copy and paste the command or if you type it use the key to the left of the 1 to type the backtick in the first line_:
  
 ```
 eval `ssh-agent -s`
@@ -138,7 +149,7 @@ _We need an amazon developer account for some image storage space on Amazons S3 
 Step 8: Test
 ---------
  
- In the web development terminal window, where it says SSH, run this, _important note: after you run `rails s` it won't give you the prompt to continue to enter commands. This is by design, so move onto the next step even if it looks like it's just hanging_:
+ In the web development terminal window,  where it says `[Web Dev]` in blue, run this, _important note: after you run `rails s` it won't give you the prompt to continue to enter commands. This is by design, so move onto the next step even if it looks like it's just hanging_:
 
 ```
 cd /vagrant/src/firehose-test-app
