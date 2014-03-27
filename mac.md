@@ -81,7 +81,8 @@ To log into your web-dev environment follow the following steps:
 
 __First__:  double click the vagrant folder on your desktop:
 
-![vagrant-folder](http://i.imgur.com/dVMQWUX.png){ width: 637px; }
+<img src="http://i.imgur.com/dVMQWUX.png" alt="Vagrant Folder" style="width: 637px;"/>
+
 
 __Second__: the finder window opens double click the `Launch Mac Web Dev
    Environment`.
