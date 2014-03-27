@@ -1,9 +1,9 @@
 require 'github_api'
 require 'io/console'
 
-print "Username: "
+print "Github Username: "
 user_name = gets.strip
-print "Password (nothing will be displayed):"
+print "Github Password (nothing will be displayed):"
 password  = STDIN.noecho(&:gets).strip
 github = Github.new(:login => user_name, :password => password)
 github.users.keys.create("title" => "FirehoseVagrant", 
