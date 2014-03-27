@@ -87,12 +87,12 @@ __First__:  double click the vagrant folder on your desktop:
 __Second__: the finder window opens double click the `Launch Mac Web Dev
    Environment`.
 
-![vagrant-folder](http://i.imgur.com/5s5S7L1.png)
+![vagrant-folder](http://i.imgur.com/VMgxYn6.png)
 
 __Third__: Then you'll be prompted with a terminal window inside your web
 development environment that looks like this:
 
-![web-dev-environment](http://i.imgur.com/zQC0NKz.png)
+![web-dev-environment](http://i.imgur.com/UdZvZTj.png)
 
 This brings you into your web dev environment ready to run commands.
 
