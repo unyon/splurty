@@ -1,6 +1,10 @@
 require 'github_api'
 require 'io/console'
 
+# Bypass annoying deprecation warning between the
+# github_api gem and the faraday gem
+Faraday::Builder = Faraday::RackBuilder
+
 print "Github Username: "
 user_name = gets.strip
 print "Github Password (nothing will be displayed):"
