@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-ssh  -p 2222 -i /Users/ken/.vagrant.d/insecure_private_key localhost -l vagrant
+ssh  -p 2222 -i ~/.vagrant.d/insecure_private_key localhost -l vagrant
 if [[ $? -ne 0 ]]
 
 then
