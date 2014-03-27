@@ -159,26 +159,12 @@ Open a web browser on your windows machine and go to: [http://127.0.0.1:3030](ht
 
 If you want to return to a window where you can enter commands in this Putty window, go into the putty window and hold CTRL+C.  This will stop your webpage from working, but allow you to enter new commands.
 
-Additional Info
+
+
+Step 9: Know your web development environment
 ---------------
 
-#### A Note about Restarting Your Machine
 
-When you restart your machine and go to connect to your development environment you will probably get a "Connection Error".  If this happens, you'll need to make sure to startup up the dev environment (Step 5).  To do this:
+Knowing and understanding how to connect to your web development environment when you want to start coding is pretty important.
 
-Open up the **Windows Command Prompt**: click the **Start** button ![Picture of the Start button](http://imgur.com/GFYgPUT.png). In the Search box, type _Command Prompt_, and then, in the list of results, double-click Command Prompt.
-
-A command prompt will come up, and then run the following two commands:
-
-```
-cd Desktop\vagrant
-```
-
-Then enter this command, it may take a few moments to complete:
-
-```
-vagrant up
-```
-
-Now click the X button and close the Command Line window, and you can try to connect to your dev environment again.
-
+**Go to our [FirehoseProject Vagrant Intro Guide](http://www.thefirehoseproject.com/cheat-sheets/vagrant-intro) and get comfortable with your web developlemt environment.**
