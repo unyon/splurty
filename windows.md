@@ -167,4 +167,4 @@ Step 9: Know your web development environment
 
 Knowing and understanding how to connect to your web development environment when you want to start coding is pretty important.
 
-**Go to our [FirehoseProject Vagrant Intro Guide](http://www.thefirehoseproject.com/cheat-sheets/vagrant-intro) and get comfortable with your web developlemt environment.**
+**Go to our [FirehoseProject Vagrant Intro Guide](http://www.thefirehoseproject.com/cheat-sheets/vagrant-intro) and get comfortable with your web development environment.**
