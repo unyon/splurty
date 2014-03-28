@@ -89,6 +89,11 @@ __Second__: the finder window opens double click the `Launch Mac Web Dev
 
 ![vagrant-folder](http://i.imgur.com/VMgxYn6.png)
 
+__Third__: you may get prompted if you want to continue.  If you get
+prompted to, type "yes" and press enter
+
+![continue](http://i.imgur.com/gR34qy2.png)
+
 __Third__: Then you'll be prompted with a terminal window inside your web
 development environment that looks like this:
 
