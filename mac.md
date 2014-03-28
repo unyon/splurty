@@ -166,37 +166,12 @@ If you want to return to a window where you can enter commands in web developmen
 
 
 
-Additional Info
+Step 9: Know your web development environment
 ---------------
 
-#### A Note about Restarting Your Machine
 
-When you restart your machine and go to connect to your development environment you will probably get a "Connection Error".  If this happens, you'll need to make sure to startup up the dev environment (Step 5).  To do this:
+Knowing and understanding how to connect to your web development environment when you want to start coding is pretty important.
 
-Open up the **terminal window**.
+**Go to our [FirehoseProject Vagrant Intro Guide](http://www.thefirehoseproject.com/cheat-sheets/vagrant-intro) and get comfortable with your web developlemt environment.**
 
-A command prompt will come up, and then run the following two commands:
 
-```
-cd ~/Desktop/vagrant
-```
-
-Then enter this command, it may take a few moments to complete:
-
-```
-vagrant up
-```
-
-#### How to log into your web development environment
-
-When you want to log into your web development environment in a new terminal tab or window, open up the tab.  Then you'll want to move into the web development locations:
-
-```
-cd ~/Desktop/vagrant
-```
-
-Then once you're there, you can change the terminal window from a regular one, to the web development one by typing the following:
-
-```
-vagrant ssh
-```
