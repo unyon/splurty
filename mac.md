@@ -94,7 +94,7 @@ prompted to, type "yes" and press enter
 
 ![continue](http://i.imgur.com/gR34qy2.png)
 
-__Third__: Then you'll be prompted with a terminal window inside your web
+__Fourth__: Then you'll be prompted with a terminal window inside your web
 development environment that looks like this:
 
 ![web-dev-environment](http://i.imgur.com/UdZvZTj.png)
