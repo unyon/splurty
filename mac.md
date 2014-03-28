@@ -3,12 +3,20 @@ Mac Setup with Vagrant
 
 This will run you through the steps to configure your web development environment using the vagrant install process.
 
+IMPORTANT: READ THIS!
+---------
+
+If you're running Parallels to run Windows (for example to run Microsoft
+Word inside Windows on your Mac) make sure to close Parrellels before going through these steps.  Parallels does not
+play nicely with Vagrant.
+
+
 Step 1: Create accounts if you haven't already
 --------
 
 ### Part A
 
-First go to [GitHub.com](http://github.com) and create an account. 
+First go to [GitHub.com](http://github.com) and create an account.
 
 ### Part B
 
