@@ -89,8 +89,7 @@ __Second__: the finder window opens double click the `Launch Mac Web Dev
 
 ![vagrant-folder](http://i.imgur.com/VMgxYn6.png)
 
-__Third__: you may get prompted if you want to continue.  If you get
-prompted to, type "yes" and press enter
+__Third__: you may get prompted if you want to continue.  If this comes up for you, type `yes` and press enter.  If this does not come up, that's ok too.
 
 ![continue](http://i.imgur.com/gR34qy2.png)
 
