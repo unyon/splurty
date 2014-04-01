@@ -6,6 +6,8 @@ This will run you through the steps to configure your web development environmen
 Step 1 - Create accounts if you haven't already
 --------
 
+**Note:** These websites may ask you if you want to also download the software programs to go along with the accounts (The Heroku ToolBelt, GitHub for Windows, or GitHub for Mac).  We won't be using these programs so you won't need to download them.  
+
 ### Part A
 
 First go to [GitHub.com](http://github.com) and create an account. 
