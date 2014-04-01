@@ -76,7 +76,7 @@ In the command prompt window you've been using, type this command, again this ma
 vagrant up
 ```
 
-Now close the Command Line window (you can click the red X in the top corner).
+Now close the Command Prompt window (you can click the red X in the top corner).
  
 Step 6: Log into your dev environment
 -----------
