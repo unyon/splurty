@@ -12,7 +12,7 @@ then
   echo "I bet your vagrant environment isn't running!"
   echo "Maybe look here about how to start it"
   tput setaf 2
-  echo "http://www.thefirehoseproject.com/cheat-sheets/vagrant-refresher"
+  echo "http://www.thefirehoseproject.com/cheat-sheets/vagrant-intro"
   tput sgr0
   echo
   echo
