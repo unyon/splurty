@@ -86,10 +86,11 @@ Open up putty
 * In the **Host Name** (or IP Address) enter: 127.0.0.1
 * In the **Port** to the right of the host name enter: 2222
 * Press the **Open** button.
+* _You may be prompted with a [PuTTY Security Alert](http://i.imgur.com/Nw2Th29.gif), asking if you trust the connection.  If this comes up press __Yes__ to continue and stop prompting you with this warning._
 * You will be prompted for a user.  Enter: __vagrant__
 * You will be prompted for a password.  Enter: __vagrant__
  
- 
+
 Step 7: Accounts
 ------------
 
