@@ -58,7 +58,7 @@ I suggest following these installers in this order, because the last installer w
 Step 4: Add the Box
 --------
  
-Open up the **Terminal Window**: Hold CTRL+Spacebar, in the Spotlight type 'Terminal' and hit the enter key.
+Open up the **Terminal Window**: Hold Command+Spacebar, in the Spotlight type 'Terminal' and hit the enter key.
 
 A terminal window will come up, and then run the following two commands:
 
