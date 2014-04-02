@@ -19,8 +19,7 @@ Additional Info
 
 #### database.yml
 
-**We'll go over what this means Saturday.**
-
+**This vagrant installer sets up a postgres database like this**:  the details here aren't important now, but if you want to keep using the firehose vagrant environment to build apps after the lessons are done, you may want to refer back to this.
 
 This installer will install postgresql in such a way that you'll need to adjust your database.yml. Add your username as 'postgres', your password as 'password' (don't include the single quotes!). You will also need to add an additional line typing 'host: localhost' (again, don't include the single quotes!).
 
