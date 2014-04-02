@@ -25,11 +25,11 @@ Download and unzip the following file: [firehose-vagrant-master](https://github.
 Step 3: Install the tools
 -------
 
-* Download [VirtualBox](https://www.virtualbox.org/wiki/Downloads), click "Run as Administrator" and follow the instructions (you're clicking next most of the time)
-* Download [Sublime Text Editor](http://sublimetext.com/).  Once it's installed, right click on the file, click "Run as Administrator" and follow the instructions (you're clicking next most of the time)
+* Go to the [VirtualBox Website](https://www.virtualbox.org/wiki/Downloads), click the link to Download "VirtualBox for Windows hosts  x86/amd64".  Find the program you just downloaded in Windows Explorer, right-click the program and press "Run as Administrator" and follow the instructions (you're clicking next most of the time)
+* Go to the [Sublime Text Editor Website](http://sublimetext.com/) and click "Download for Windows".  Once the program downloads, find the file in Windows Explorer and right click the file, click "Run as Administrator" and follow the instructions (you're clicking next most of the time)
 * Download [Putty SSH Client](http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe), copy the putty.exe file onto your desktop (that way you can start things up quickly) 
-* Download [Vagrant](http://www.vagrantup.com/downloads.html) .  Double click on on the file you downloaded and follow the instructions (you're clicking next most of the time)
-* Restart your computer
+* Go to the [Vagrant Download Page](http://www.vagrantup.com/downloads.html), click Find the Windows section and click "Universal (32 and 64-bit)".  Run the file you downloaded and follow the instructions (you're clicking next most of the time)
+* Restart your computer when you're prompted to.
 
 
 Step 4: Turn on your Web Dev Environment

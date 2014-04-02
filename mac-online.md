@@ -34,12 +34,12 @@ Download and unzip the following file: [firehose-vagrant](https://github.com/ken
 Step 3: Install the tools
 -------
 
-* [Download VirtualBox](https://www.virtualbox.org/wiki/Downloads). Double click on VirtualBox.pkg and follow the instructions (you're clicking continue most of the time)
-* Download [Sublime Text Editor](http://sublimetext.com/), open the file and [drag the Sublime Text 2 program into the Applications folder](http://i.imgur.com/pgjF3WL.png), then launch the program by going into your _Launch Pad_ and finding "Sublime Text 2".  (Note: This may say that this is from an [unidentified developer and is unallowed, to continue](http://i.imgur.com/FNTYmyL.png) if this happens open Launch Pad > System Preferences > Security & Privacy and click [open Anyway](http://i.imgur.com/XPVpfRf.png). )  It will probably tell you ["Sublime Text" is an application downloaded from the internet. Are you sure you want to open it?](http://i.imgur.com/bjtmqkw.png)  Press **Open**.  This will launch the Sublime Text editor, and you'll be good.  If you need more help check out [this Sublime Text install video](https://vimeo.com/88292868) we made.
-* [Download Vagrant](http://www.vagrantup.com/downloads.html) and run the file. Then follow the instructions (you're clicking continue most of the time)
 
+* Go to the [VirtualBox Website](https://www.virtualbox.org/wiki/Downloads), click the link to Download "VirtualBox for OS X hosts".  Open the dmg file that downloads, then double click on VirtualBox.pkg that pops up and follow the instructions (you're clicking continue most of the time).  Once you go through that step close out the "VirtualBox" window.
+* Go to the [Sublime Text Editor Website](http://sublimetext.com/) and click "Download for Mac".  Open the file and [drag the Sublime Text 2 program into the Applications folder](http://i.imgur.com/pgjF3WL.png), then launch the program by going into your _Launch Pad_ and finding "Sublime Text 2".  (Note: This may say that this is from an [unidentified developer and is unallowed, to continue](http://i.imgur.com/FNTYmyL.png) if this happens open Launch Pad > System Preferences > Security & Privacy and click [open Anyway](http://i.imgur.com/XPVpfRf.png). )  It will probably tell you ["Sublime Text" is an application downloaded from the internet. Are you sure you want to open it?](http://i.imgur.com/bjtmqkw.png)  Press **Open**.  This will launch the Sublime Text editor, and you'll be good.  If you need more help check out [this Sublime Text install video](https://vimeo.com/88292868) we made.
+* Go to the [Vagrant Download Page](http://www.vagrantup.com/downloads.html), click Find the Mac OS X section and click "Universal (32 and 64-bit)".  Run the file you downloaded and follow the instructions (you're clicking next most of the time)
  
-Step 4: Add the Box
+Step 4: Turn on your Web Dev Environment
 --------
  
 Open up the **Terminal Window**: Hold Command+Spacebar, in the Spotlight type 'Terminal' and hit the enter key.
@@ -49,8 +49,6 @@ A terminal window will come up, and then run the following two commands:
 ```
 cd ~/Desktop/vagrant
 ```
- 
-
 
 Then type this command.  It will need to download a large file, so it will take a few moments to complete:
 
