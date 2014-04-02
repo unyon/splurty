@@ -19,7 +19,7 @@ Then go to [Heroku.com](http://Heroku.com) and create an account there as well.
 Step 2:  Get the files for your development environment
 -----------
 
-Download and unzip the following file: [firehose-vagrant](https://github.com/kenmazaika/firehose-vagrant/archive/master.zip) to your __Desktop__ and rename the folder `vagrant`.  This is where all your web development environment will live. Also download the firehose.box file here, and save it in your `Desktop/vagrant` folder.
+Download and unzip the following file: [firehose-vagrant](https://github.com/kenmazaika/firehose-vagrant/archive/vagrant.zip) to your __Desktop__ and rename the folder `vagrant`.  This is where all your web development environment will live. Also download the firehose.box file here, and save it in your `Desktop/vagrant` folder.
 
 
 Step 3: Install the tools
