@@ -29,7 +29,7 @@ Step 3: Install the tools
 * Go to the [Sublime Text Editor Website](http://sublimetext.com/) and click "Download for Windows".  Once the program downloads, find the file in Windows Explorer and right click the file, click "Run as Administrator" and follow the instructions (you're clicking next most of the time)
 * Download [Putty SSH Client](http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe), copy the putty.exe file onto your desktop (that way you can start things up quickly) 
 * Go to the [Vagrant Download Page](http://www.vagrantup.com/downloads.html), click Find the Windows section and click "Universal (32 and 64-bit)".  Run the file you downloaded and follow the instructions (you're clicking next most of the time)
-* Restart your computer when you're prompted to.
+* Restart your computer if you're prompted to.
 
 
 Step 4: Turn on your Web Dev Environment
