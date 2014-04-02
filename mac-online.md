@@ -50,23 +50,15 @@ A terminal window will come up, and then run the following two commands:
 cd ~/Desktop/vagrant
 ```
  
-then run this next command, it may take a few moments to complete:
-
-```
-vagrant box add firehose firehose.box
-```
 
 
-Step 5: Turn on your Web Dev Environment
--------
-
-In the terminal you've been using, type this command, again this may take a few moments to complete:
+Then type this command.  It will need to download a large file, so it will take a few moments to complete:
 
 ```
 vagrant up
 ```
  
-Step 6: Log into your dev environment
+Step 5: Log into your dev environment
 -----------
 
 To log into your web-dev environment follow the following steps:
@@ -93,7 +85,7 @@ development environment that looks like this:
 This brings you into your web dev environment ready to run commands.
 
 
-Step 7: Accounts
+Step 6: Accounts
 ------------
 
 #### Generate SSH Key
@@ -143,7 +135,7 @@ _We need an amazon developer account for some image storage space on Amazons S3 
 * Sign-up and create an account for [Amazon Web Services](http://aws.amazon.com/). Anything we'll do over the weekend will cost you nothing, so don't worry about your credit card being charged.
 
  
-Step 8: Test
+Step 7: Test
 ---------
  
  In the web development terminal window,  where it says `[Web Dev]` in blue, run this, _important note: after you run `rails s` it won't give you the prompt to continue to enter commands. This is by design, so move onto the next step even if it looks like it's just hanging_:
@@ -162,7 +154,7 @@ If you want to return to a window where you can enter commands in web developmen
 
 
 
-Step 9: Know your web development environment
+Step 8: Know your web development environment
 ---------------
 
 
