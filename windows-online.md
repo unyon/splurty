@@ -19,7 +19,7 @@ Then go to [Heroku.com](http://Heroku.com) and create an account there as well.
 Step 2:  Get the files for your development environment
 -----------
 
-Download and unzip the following file: [firehose-vagrant](https://github.com/kenmazaika/firehose-vagrant/archive/master.zip) to your __Desktop__ and rename the folder `vagrant`.  This is where all your web development environment will live. Also download the firehose.box file here, and save it in your `Desktop/vagrant` folder.
+Download and unzip the following file: [firehose-vagrant-master](https://github.com/kenmazaika/firehose-vagrant/archive/master.zip) to your __Desktop__ and rename the folder `vagrant`.  This is where all your web development environment will live. Also download the firehose.box file here, and save it in your `Desktop/vagrant` folder.
 
 
 Step 3: Install the tools
@@ -32,7 +32,7 @@ Step 3: Install the tools
 * Restart your computer
 
 
-Step 4: Add the Box
+Step 4: Turn on your Web Dev Environment
 --------
  
 Open up the **Windows Command Prompt**: click the **Start** button ![Picture of the Start button](http://imgur.com/GFYgPUT.png). In the Search box, type _Command Prompt_, and then, in the list of results, double-click Command Prompt.
@@ -43,17 +43,7 @@ A command prompt will come up, and then run the following two commands:
 cd Desktop\vagrant
 ```
  
-then run this next command, it may take a few moments to complete:
-
-```
-vagrant box add firehose firehose.box
-```
-
-
-Step 5: Turn on your Web Dev Environment
--------
-
-In the command prompt window you've been using, type this command, again this may take a few moments to complete:
+Then type this command.  It will take a few moments to complete (it needs to download a very large file):
 
 ```
 vagrant up
@@ -61,7 +51,7 @@ vagrant up
 
 Now close the Command Prompt window (you can click the red X in the top corner).
  
-Step 6: Log into your dev environment
+Step 5: Log into your dev environment
 -----------
  
 Launch the **Putty** application that was placed onto your Desktop by double clicking it.
@@ -76,7 +66,7 @@ Open up putty
 * You will be prompted for a password.  Enter: __vagrant__
  
 
-Step 7: Accounts
+Step 6: Accounts
 ------------
 
 #### Generate SSH Key
@@ -128,7 +118,7 @@ _We need an amazon developer account for some image storage space on Amazons S3 
 * Sign-up and create an account for [Amazon Web Services](http://aws.amazon.com/). Anything we'll do over the weekend will cost you nothing, so don't worry about your credit card being charged.
 
  
-Step 8: Test
+Step 7: Test
 ---------
  
  In the putty window run this, _important note: after you run `rails s` it won't give you the prompt to continue to enter commands. This is by design, so move onto the next step even if it looks like it's just hanging_:
@@ -147,7 +137,7 @@ If you want to return to a window where you can enter commands in this Putty win
 
 
 
-Step 9: Know your web development environment
+Step 8: Know your web development environment
 ---------------
 
 
