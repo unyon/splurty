@@ -10,8 +10,8 @@ Sometimes you will be prompted for a password (your computer login password, use
 Run Through the Guide For Your Machine
 -------------
 
-## [Windows Web Dev Setup](windows.md)
-## [Mac Web Dev Setup](mac.md)
+## [Windows Web Dev Setup](windows-in-person.md)
+## [Mac Web Dev Setup](mac-in-person.md)
 
 
 Additional Info
