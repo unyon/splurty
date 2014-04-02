@@ -28,33 +28,17 @@ Then go to [Heroku.com](http://Heroku.com) and create an account there as well.
 Step 2:  Get the files for your development environment
 -----------
 
-**Go get a Firehose Flash Drive**:  copy the vagrant folder onto your __Desktop__.  --> Move on to step 3!
-
-**If you do not have a Firehose Flash Drive (this will be a long donwload)**: download and unzip the following file: [firehose-vagrant](https://github.com/kenmazaika/firehose-vagrant/archive/master.zip) to your __Desktop__ and rename the folder `vagrant`.  This is where all your web development environment will live. Also download the firehose.box file here, and save it in your `Desktop/vagrant` folder.
+**Go get a Firehose Flash Drive**:  copy the vagrant folder onto your __Desktop__.
 
 
 Step 3: Install the tools
 -------
 
-**If you used a firehose flash-drive:**
 Go to your vagrant folder on your desktop and open it up. Inside the vagrant folder open up the programs folder and inside of it the mac folder (vagrant > programs > mac).
 
 * Double click on VirtualBox.pkg and follow the instructions (you're clicking continue most of the time)
 * Double click on Sublime Text 2.0.2.dmg and [drag the Sublime Text 2 program into the Applications folder](http://i.imgur.com/pgjF3WL.png), then launch the program by going into your _Launch Pad_ and finding "Sublime Text 2".  (Note: This may say that this is from an [unidentified developer and is unallowed, to continue](http://i.imgur.com/FNTYmyL.png) if this happens open Launch Pad > System Preferences > Security & Privacy and click [open Anyway](http://i.imgur.com/XPVpfRf.png). )  It will probably tell you ["Sublime Text" is an application downloaded from the internet. Are you sure you want to open it?](http://i.imgur.com/bjtmqkw.png)  Press **Open**.  This will launch the Sublime Text editor, and you'll be good.  If you need more help check out [this Sublime Text install video](https://vimeo.com/88292868) we made.
 * Double click on Vagrant.pkg and follow the instructions (you're clicking continue most of the time)
-
-**--> Move on to Step 4.**
-
-
-**If you didn't use a firehose flash-drive - download the tools below:**
-
-I suggest following these installers in this order, because the last installer will have you retart your machine.  When it prompts you to, click "Yes".
-
-* [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
-* [Sublime Text Editor](http://sublimetext.com/)
-* [Vagrant](http://www.vagrantup.com/downloads.html) 
- 
- 
 
  
 Step 4: Add the Box

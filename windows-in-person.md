@@ -19,15 +19,12 @@ Then go to [Heroku.com](http://Heroku.com) and create an account there as well.
 Step 2:  Get the files for your development environment
 -----------
 
-**Go get a Firehose Flash Drive**:  copy the vagrant folder onto your __Desktop__.  --> Move on to step 3!
-
-**If you do not have a Firehose Flash Drive (this will be a long donwload)**: download and unzip the following file: [firehose-vagrant](https://github.com/kenmazaika/firehose-vagrant/archive/master.zip) to your __Desktop__ and rename the folder `vagrant`.  This is where all your web development environment will live. Also download the firehose.box file here, and save it in your `Desktop/vagrant` folder.
+**Go get a Firehose Flash Drive**:  copy the vagrant folder onto your __Desktop__.
 
 
 Step 3: Install the tools
 -------
 
-**If you used a firehose flash-drive:**
 Go to your vagrant folder on your desktop and open it up. Inside the vagrant folder open up the programs folder and inside of it the windows folder (vagrant > programs > windows).
 
 * Right click on VirtualBox-4.3.6-91406-Win.exe, click "Run as Administrator" and follow the instructions (you're clicking next most of the time)
@@ -35,18 +32,6 @@ Go to your vagrant folder on your desktop and open it up. Inside the vagrant fol
 * Copy the putty.exe file onto your desktop (that way you can start things up quickly) 
 * Double click on Vagrant_1.4.3.msi and follow the instructions (you're clicking next most of the time)
 * Restart your computer
-
-**--> Move on to Step 4.**
-
-
-**If you didn't use a firehose flash-drive - download the tools below:**
-
-I suggest following these installers in this order, because the last installer will have you retart your machine.  When it prompts you to, click "Yes".
-
-* [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
-* [Sublime Text Editor](http://sublimetext.com/)
-* [Putty SSH Client](http://the.earth.li/~sgtatham/putty/latest/x86/putty.exe) - Just download this file to your desktop so you can run it easily.
-* [Vagrant](http://www.vagrantup.com/downloads.html) 
 
 
 Step 4: Add the Box
