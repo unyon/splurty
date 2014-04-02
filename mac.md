@@ -6,7 +6,7 @@ This will run you through the steps to configure your web development environmen
 IMPORTANT: READ THIS!
 ---------
 
-If you're running Parallels to run Windows (for example to run Microsoft
+If you're running Parallels, VirtualBox, or VMWare to run Windows (for example to run Microsoft
 Word inside Windows on your Mac) make sure to close Parrellels before going through these steps.  Parallels does not
 play nicely with Vagrant.
 
