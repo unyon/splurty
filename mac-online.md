@@ -14,7 +14,7 @@ play nicely with Vagrant.
 Step 1: Create accounts if you haven't already
 --------
 
-**Note:** These websites may ask you if you want to also download the software programs to go along with the accounts (The Heroku ToolBelt, GitHub for Windows, or GitHub for Mac).  We won't be using these programs so you won't need to download them.  
+**Note:** These websites may ask you if you want to also download the software programs to go along with the accounts (The Heroku ToolBelt, GitHub for Windows, or GitHub for Mac).  We won't be using these programs so you won't need to download them.
 
 ### Part A
 
@@ -28,8 +28,7 @@ Then go to [Heroku.com](http://Heroku.com) and create an account there as well.
 Step 2:  Get the files for your development environment
 -----------
 
-Download and unzip the following file: [firehose-vagrant](https://github.com/kenmazaika/firehose-vagrant/archive/master.zip) to your __Desktop__ and rename the folder `vagrant`.  This is where all your web development environment will live. Also download the firehose.box file here, and save it in your `Desktop/vagrant` folder.
-
+Download and unzip the following file: [firehose-vagrant](https://github.com/kenmazaika/firehose-vagrant/archive/master.zip) to your __Desktop__ and rename the folder `vagrant`.  This is where all your web development environment will live.
 
 Step 3: Install the tools
 -------
