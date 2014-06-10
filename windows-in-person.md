@@ -61,7 +61,7 @@ In the command prompt window you've been using, type this command, again this ma
 vagrant up
 ```
 
-Now close the Command Prompt window (you can click the red X in the top corner).
+This `vagrant up` command takes several minutes to complete, so wait until it finishes and the window is ready to accept more input.  Once it completes, close the Command Prompt window (you can click the red X in the top corner).
  
 Step 6: Log into your dev environment
 -----------
