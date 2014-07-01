@@ -40,10 +40,10 @@ Go to your vagrant folder on your desktop and open it up. Inside the vagrant fol
 * Double click on Sublime Text 2.0.2.dmg and [drag the Sublime Text 2 program into the Applications folder](http://i.imgur.com/pgjF3WL.png), then launch the program by going into your _Launch Pad_ and finding "Sublime Text 2".  (Note: This may say that this is from an [unidentified developer and is unallowed, to continue](http://i.imgur.com/FNTYmyL.png) if this happens open Launch Pad > System Preferences > Security & Privacy and click [open Anyway](http://i.imgur.com/XPVpfRf.png). )  It will probably tell you ["Sublime Text" is an application downloaded from the internet. Are you sure you want to open it?](http://i.imgur.com/bjtmqkw.png)  Press **Open**.  This will launch the Sublime Text editor, and you'll be good.  If you need more help check out [this Sublime Text install video](https://vimeo.com/88292868) we made.
 * Double click on Vagrant.pkg and follow the instructions (you're clicking continue most of the time)
 
- 
+
 Step 4: Add the Box
 --------
- 
+
 Open up the **Terminal Window**: Hold Command+Spacebar, in the Spotlight type 'Terminal' and hit the enter key.
 
 A terminal window will come up, and then run the following two commands:
@@ -51,7 +51,7 @@ A terminal window will come up, and then run the following two commands:
 ```
 cd ~/Desktop/vagrant
 ```
- 
+
 then run this next command, it may take a few moments to complete:
 
 ```
@@ -67,7 +67,10 @@ In the terminal you've been using, type this command, again this may take a few 
 ```
 vagrant up
 ```
- 
+
+**NOTE:** If this comes back with an error message telling you to run `vagrant init` DO NOT DO THAT.  See this post [here](http://www.thefirehoseproject.com/comments/48) for details about how to fix this error message.
+
+
 Step 6: Log into your dev environment
 -----------
 
@@ -101,7 +104,7 @@ Step 7: Accounts
 #### Generate SSH Key
 
  Inside the web development terminal window, where it says `[Web Dev]` in blue, run the following lines one by one. _important note: the command has backticks (`) not single-quotes ('), either copy and paste the command or if you type it use the key to the left of the 1 to type the backtick in the first line_:
- 
+
 ```
 eval `ssh-agent -s`
 ```
@@ -111,9 +114,9 @@ ssh-keygen -t rsa -C "Firehose Vagrant" -N '' -f ~/.ssh/id_rsa
 ```
 ssh-add ~/.ssh/id_rsa
 ```
- 
+
 #### Configure Heroku with SSH Keys
- 
+
 This will prompt you for your heroku username and password.  Enter that here.
 
 ```
@@ -122,18 +125,23 @@ heroku login
 ```
 heroku keys:add
 ```
- 
+
 #### Configure Github with SSH Keys
- 
+
+Then run this command.  Once this command runs it will prompt you for your GitHub username (note this is your username not your email address) and your password.  Enter these values and then press enter.  It should tell you "ok!".  If it gives you an error message you probably entered an invalid username and password (so try to run that command again).
+
 ```
 curl "https://raw2.github.com/kenmazaika/firehose-vagrant/master/github-key.rb" > ~/.firehose-github.rb && ruby ~/.firehose-github.rb
 ```
 
-Then adjust these to have your name and email address inside the double quotes:
+Once the dollar-sign returns, run these commands and provide your name and email address inside the double quotes instead of the dummy data:
 
 ```
 git config --global user.email "you@example.com"
 ```
+
+And then run:
+
 ```
 git config --global user.name "Your Name"
 ```
@@ -144,10 +152,10 @@ _We need an amazon developer account for some image storage space on Amazons S3 
 
 * Sign-up and create an account for [Amazon Web Services](http://aws.amazon.com/). Anything we'll do over the weekend will cost you nothing, so don't worry about your credit card being charged.
 
- 
+
 Step 8: Test
 ---------
- 
+
  In the web development terminal window,  where it says `[Web Dev]` in blue, run this, _important note: after you run `rails s` it won't give you the prompt to continue to enter commands. This is by design, so move onto the next step even if it looks like it's just hanging_:
 
 ```
@@ -160,16 +168,20 @@ rails s
 
 Open a web browser on your windows machine and go to: [http://127.0.0.1:3030](http://127.0.0.1:3030)
 
-If you want to return to a window where you can enter commands in web development terminal window, go into it and hold CTRL+C.  This will stop your webpage from working, but allow you to enter new commands.
+Step 9: Stop your rails server
+-------------
+
+Now return to a window where you can enter commands in web development terminal window.  
+
+**Find your web development terminal where you ran the `rails server` command and hold CTRL+C.**
+
+This stops the webpage from working, but will allow you to enter new commands.
 
 
-
-Step 9: Know your web development environment
+Step 10: Know your web development environment
 ---------------
 
 
 Knowing and understanding how to connect to your web development environment when you want to start coding is pretty important.
 
 **Go to our [FirehoseProject Vagrant Intro Guide](http://www.thefirehoseproject.com/cheat-sheets/vagrant-intro) and get comfortable with your web development environment.**
-
-
