@@ -28,8 +28,19 @@ Splurting out unsolicited advice about entrepeneurship since 2014
 </header>
 <hr />
 <br class="clear" />
-s
+<div class="container">
 <%= yield %>
+</div>
 
+<div class="footer">
+<div class="container">
+<div class="col-xs-6">
+<%= link_to "This isn't enough, I need more", "#", :class => 'next-quote' %>
+</div>
+<div class="col-xs-6 footer-blurb" >
+Proudly built in Cambridge, MA by Michael Halloran
+</div>
+</div>
+</div>
 </body>
 </html>
