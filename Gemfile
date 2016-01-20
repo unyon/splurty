@@ -30,6 +30,8 @@ gem 'bootstrap-sass', '~> 3.3.5.1'
 gem 'sprockets', '2.11.0'
 gem 'sass-rails'
 
+gem "factory_girl_rails", "~> 4.0"
+
 #Add Simple form
 gem 'simple_form'
 group :doc do

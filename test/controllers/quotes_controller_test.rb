@@ -2,6 +2,7 @@ require 'test_helper'
 
 class QuotesControllerTest < ActionController::TestCase
    test "quotes show page" do
+   	    quote = FactoryGirl.create(:quote)
    	    quote = Quote.create(author: 'Ken Mazaika', saying: 'You only yolo once.')
    	    get :show, id: quote.id
    	    assert_response :success
